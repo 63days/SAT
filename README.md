@@ -7,8 +7,8 @@ This repo is a Image Captioning Model, which is in the **"Show, Attend and Tell:
 | 61.09  | 36.54  | 22.64  | 14.21  |
 
 ## Used In
-**DATASETS:** Flickr8k  
+**DATASET:** Flickr8k  
 **ENCODER LAYER:** pretrained Vgg16Net
 
 ## Reference
-Show Attend and Tell
+[Show Attend and Tell](https://arxiv.org/pdf/1502.03044.pdf)
