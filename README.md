@@ -12,10 +12,10 @@ This repo is a Image Captioning Model, which is in the **"Show, Attend and Tell:
 **ENCODER LAYER:** pretrained Vgg16Net
 
 ## To train
-`Python3 main.py`
+`python3 main.py`
 
 ## To test
-`Python3 main.py --test`
+`python3 main.py --test`
 
 ## Reference
 [Show Attend and Tell](https://arxiv.org/pdf/1502.03044.pdf)
