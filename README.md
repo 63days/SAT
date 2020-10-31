@@ -6,6 +6,8 @@ This repo is a Image Captioning Model, which is in the **"Show, Attend and Tell:
 | ------ | ------ | ------ | ------ |
 | 61.09  | 36.54  | 22.64  | 14.21  |
 
+BLEU(Bilingual Evaluation Understudy)is a score for comparing a candidate translation of text to one or more reference translations.  
+
 ![image](https://user-images.githubusercontent.com/37788686/88451050-bf658200-ce8e-11ea-8875-5d6f5a46b104.png)
 ## Used In
 **DATASET:** Flickr8k  
