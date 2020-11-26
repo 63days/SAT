@@ -1,12 +1,14 @@
 # Show, Attend and Tell: Pytorch Implementation
 ## Objective
 This repo is a Image Captioning Model, which is in the **"Show, Attend and Tell: Neural Image Caption Generation with Visual Attention (ICML'15)"** paper.
+
 ## Results
 | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4 |
 | ------ | ------ | ------ | ------ |
 | 61.09  | 36.54  | 22.64  | 14.21  |
 
 BLEU(Bilingual Evaluation Understudy)is a score for comparing a candidate translation of text to one or more reference translations.  
+![image](https://user-images.githubusercontent.com/37788686/100361207-35484880-303d-11eb-96a2-cae554881be1.png)
 
 ![image](https://user-images.githubusercontent.com/37788686/88451050-bf658200-ce8e-11ea-8875-5d6f5a46b104.png)
 ## Used In
@@ -49,7 +51,7 @@ class Decoder(nn.Module):
 ```
 Decoder consists of LSTM cells. 
 
-<img src="https://user-images.githubusercontent.com/37788686/98816467-0ee6b280-246c-11eb-9a26-d78118201fd3.png" width="40%">
+<img src="https://user-images.githubusercontent.com/37788686/100361456-85bfa600-303d-11eb-9799-d02db89cabb3.png" width="40%"><img src="https://user-images.githubusercontent.com/37788686/98816467-0ee6b280-246c-11eb-9a26-d78118201fd3.png" width="40%">
 
 ```
 i: input
